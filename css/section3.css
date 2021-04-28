@@ -1,0 +1,54 @@
+.section3 {
+	background-color: var(--dark-blue);
+	min-height: 25rem;
+	border-radius: 0 5rem;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.section3 .section3-container {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 25rem;
+	background: url(../images/bg-pattern-circles.svg) no-repeat center;
+	background-size: 70%;
+	background-position: -12.5rem -27.5rem;
+}
+.section3 .section3-img {
+	width: 50%;
+	position: relative;
+}
+.section3 .section3-img .illustration-phones {
+	width: 80%;
+	position: absolute;
+	top: -4.375rem;
+	left: 6.25rem;
+}
+.section3 .section3-text {
+	width: 50%;
+	padding: 5rem 2rem;
+}
+.section3 .section3-text h2 {
+	font-size: 1.6rem;
+}
+.section3 .section3-text p {
+	color: var(--gray);
+}
+
+@media (max-width: 375px) {
+	.section3 .section3-container {
+		background-position: 0rem -5rem;
+		background-size: 100%;
+		border-radius: 0 5rem;
+	}
+	.section3 .section3-img {
+		width: 100%;
+		min-height: 100px;
+	}
+	.section3 .section3-img .illustration-phones {
+		left: 2rem;
+	}
+	.section3 .section3-text {
+		width: 100%;
+		text-align: center;
+	}
+}

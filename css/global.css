@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap);
+@import url(./variables.css);
+body {
+	font-size: 16px;
+	font-family: "Overpass", sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: var(--white);
+	background-color: var(--gray);
+	letter-spacing: 1px;
+}
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: var(--white-muted);
+}
+
+@media (max-width: 375px) {
+	body {
+		background-color: var(--white);
+	}
+}

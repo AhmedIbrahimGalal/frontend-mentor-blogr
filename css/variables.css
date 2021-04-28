@@ -1,0 +1,14 @@
+:root {
+	--white: #fff;
+	--white-muted: #ffffffe6;
+	--light-red: hsl(356, 100%, 66%);
+	--cta-hover: hsl(355, 100%, 74%);
+	--dark-muted: hsla(206, 13%, 34%, 0.76);
+	--dark: hsl(240, 10%, 16%);
+	--dark-blue: hsl(237, 17%, 21%);
+	--shadow-color: rgba(0, 0, 0, 0.219);
+	--gray: rgb(236, 236, 236);
+	--mobProductLink: "\f078";
+	--mobCompanyLink: "\f078";
+	--mobConnectLink: "\f078";
+}
